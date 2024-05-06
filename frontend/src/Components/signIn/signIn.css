@@ -1,0 +1,188 @@
+.signIn {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signIn_container {
+    /* background-color: #dea6a6; */
+    /* height: 80%; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    /* background-color: blue; */
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sm_header {
+    margin: 5px;
+    /* background-color: aquamarine; */
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+/* .label {
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+} */
+
+.detail {
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+}
+
+.detail>label {
+    margin-top: 8px;
+    padding: 8px 15px;
+    color: rgb(179, 167, 167);
+    border-radius: 8px;
+    border: 1px solid rgb(159, 149, 149);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detail>label>i {
+    cursor: pointer;
+    color: rgb(103, 103, 103);
+}
+
+.detail>label>input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+}
+
+/* .label>input {
+    margin-top: 8px;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: rgb(179, 167, 167);
+    border-radius: 8px;
+    border: 1px solid rgb(159, 149, 149);
+    outline: none;
+} */
+
+.signIn_btn {
+    width: 100%;
+    outline: none;
+    font-size: 12px;
+    background-color: #006ee6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 18px;
+    color: white;
+    border: #006ee6;
+}
+
+.signIn_btn:hover {
+    cursor: pointer;
+}
+
+.signIn_options {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signIn_options>.signIn_Link{
+    width: 45%;
+}
+
+.signIn_opt {
+    background-color: burlywood;
+    width: 100%;
+    outline: none;
+    font-size: 12px;
+    background-color: #006ee6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 18px;
+    color: white;
+    border: #006ee6;
+    cursor: pointer;
+}
+
+@media(max-width: 1200px) {
+    .signIn_container {
+        width: 40%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .signIn_container {
+        width: 45%;
+    }
+}
+
+@media(max-width: 768px) {
+    .signIn_container {
+        width: 60%;
+    }
+
+    .header {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 480px) {
+    .signIn_container {
+        width: 80%;
+    }
+
+    .header {
+        font-size: 28px;
+    }
+
+    .sm_header {
+        font-size: 10px;
+    }
+
+    .detail>label {
+        margin-top: 5px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+}
+
+@media(max-width: 320px) {
+    .signIn_container {
+        width: 85%;
+    }
+
+    .header {
+        font-size: 25px;
+    }
+
+    .sm_header {
+        font-size: 10px;
+    }
+
+    .detail>label {
+        margin-top: 5px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+}

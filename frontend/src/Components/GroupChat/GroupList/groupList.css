@@ -1,0 +1,59 @@
+.groupList {
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.groupList>img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.groupList_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.groupList_details>p {
+    margin: 0;
+    padding: 0;
+}
+
+.groupList_details>.group_name {
+    font-size: 16px;
+}
+
+.groupList_details>.groupList_last_message {
+    font-size: 12px;
+}
+
+@media(max-width: 480px) {
+    .groupList {
+        width: 96%;
+        padding: 2px;
+    }
+
+    .groupList>img {
+        width: 17px;
+        height: 17px;
+        margin-right: 3px;
+    }
+
+    .groupList_details>.groupList_name {
+        font-size: 12px;
+    }
+
+    .groupList_details>.groupList_last_message {
+        font-size: 8px;
+    }
+}

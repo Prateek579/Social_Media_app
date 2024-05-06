@@ -1,0 +1,81 @@
+.homeCont_cards {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.homeCont_card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border: 2px solid #e6e6e6;
+}
+
+.card_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card_top>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user_details>p {
+    margin: 0px;
+}
+
+.home_user_name {
+    font-size: 20px;
+}
+
+.user_date {
+    font-size: 12px;
+    color: gray;
+}
+
+.card_text>p {
+    margin: 10px 0px;
+    font-size: 13px;
+}
+
+.card_docs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card_docs>img{
+    max-height: 300px;
+}
+
+.card_option {
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.card_like>i,
+.card_comment>i {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.post_liked{
+    background-color: black;
+    color: black;
+}
